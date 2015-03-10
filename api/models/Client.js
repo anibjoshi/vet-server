@@ -8,7 +8,17 @@
 module.exports = {
 
   attributes: {
-
+  		name : 'string',
+  		address: 'string',
+  		dateOfBirth : 'date',
+  		contact: 'integer',
+  		email:'email',
+  		pets: {
+  			collection:'patient',
+  			via: 'owner'
+  		},
+  		dueAmount:'integer',
+  		preferredDoctor : 'string'
   }
 };
 

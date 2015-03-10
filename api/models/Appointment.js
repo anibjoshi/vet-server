@@ -8,7 +8,10 @@
 module.exports = {
 
   attributes: {
-  		
+  		appointmentFor: 'string',
+  		date: 'datetime',
+  		doctor:'string',
+  		reason: 'string'
   }
 };
 

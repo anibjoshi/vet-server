@@ -8,7 +8,17 @@
 module.exports = {
 
   attributes: {
+  		name:'string',
+  		type: 'string',
+  		breed: 'string',
+  		dateOfBirth: 'date',
+  		age : 'integer',
+  		passed : 'boolean',
+  		passedDate : 'date',
 
+  		owner : {
+  			model:'Client'
+  		}
   }
 };
 
